@@ -2277,6 +2277,7 @@ ul.extra-skills li i {
     padding-bottom: 20px;
 }
 
+
 .contact-form-area {
     padding: 40px;
     border: 1px solid var(--border-color);
@@ -2293,6 +2294,13 @@ ul.extra-skills li i {
     transition: .3s;
     color: var(--subtitle-color);
 }
+
+.single-contact p {
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+
 
 .contact-content-part {
     padding: 50px 30px 20px 40px;
