@@ -9,10 +9,10 @@ import partner3 from "../../assets/images/toolsimg/3.png"
 import partner4 from "../../assets/images/toolsimg/4.png"
 import partner5 from "../../assets/images/toolsimg/5.png"
 import partner6 from "../../assets/images/toolsimg/6.png"
-import partner7 from "../../assets/images/toolsimg/7.png"   
-import partner8 from "../../assets/images/toolsimg/8.png"   
+import partner7 from "../../assets/images/toolsimg/7.png"
+import partner8 from "../../assets/images/toolsimg/8.png"
 import partner9 from "../../assets/images/toolsimg/9.png"
-import partner10 from "../../assets/images/toolsimg/10.png"    
+import partner10 from "../../assets/images/toolsimg/10.png"
 import SlideUp from '../../utlits/animations/slideUp';
 
 const Hero = () => {
@@ -24,16 +24,26 @@ const Hero = () => {
                     <div className="col-lg-4">
                         <SlideUp>
                             <div className="about-image-part">
-                                <img src={profile}  alt="About Me" />
+                                <img src={profile} alt="About Me" />
                                 <h2>Vinicius Santos</h2>
                                 <p>Sou desenvolvedor Front-End e atuo em São Paulo</p>
                                 <div className="about-social text-center">
                                     <ul>
-                                        <li><Link to=""><RiInstagramLine size={20} /></Link></li>
-                                        <li><Link to=""><RiLinkedinFill size={20} /></Link></li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/vsantus/" target="_blank" rel="noopener noreferrer">
+                                                <RiLinkedinFill size={20} />
+                                            </a>
+                                        </li>
+
                                         <li>
                                             <a href="https://github.com/vsantus" target="_blank" rel="noopener noreferrer">
                                                 <RiGithubLine size={20} />
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.instagram.com/devsantos_/" target="_blank" rel="noopener noreferrer">
+                                                <RiInstagramLine size={20} />
                                             </a>
                                         </li>
 
@@ -58,8 +68,11 @@ const Hero = () => {
                                     </ul>
                                 </div>
                                 <div className="hero-btns">
-                                    <Link to="/contact" className="theme-btn">Download CV <i><RiDownloadLine size={16} /></i> </Link>
+                                    <a href="/cv.pdf" download className="theme-btn">
+                                        Download CV <i><RiDownloadLine size={16} /></i>
+                                    </a>
                                 </div>
+
                             </div>
                         </SlideUp>
                         <SlideUp>

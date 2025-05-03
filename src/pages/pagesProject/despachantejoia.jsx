@@ -37,7 +37,7 @@ const DespachanteJoia = () => {
                             </div>
                             <div className="single-info">
                                 <p>Serviços</p>
-                                <h3>Design</h3>
+                                <h3>Post, Logotipo</h3>
                             </div>
                             <div className="single-info">
                                 <p>Projeto</p>

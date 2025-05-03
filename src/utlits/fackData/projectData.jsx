@@ -49,7 +49,7 @@ export const projectsData = [
         src: erreve,
         category: "Design",
         title: "Erreve Digital",
-        link: '/'
+        link: '/errevedigital'
     },
     
     

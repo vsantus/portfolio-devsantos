@@ -12,6 +12,7 @@ import GerenciadorTarefas from "../pages/pagesProject//gerenciadorTarefas";
 import NitroPecas from "../pages/pagesProject/nitroPecas";
 import DespachanteJoia from "../pages/pagesProject/despachantejoia";
 import OnePiece from "../pages/pagesProject/onepiece";
+import ErreveDigital from "../pages/pagesProject/errevedigital";
 
 
 export const router = createBrowserRouter([
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
             {
                 path: "/despachantejoia",
                 element: <DespachanteJoia />
+            },
+            {
+                path: "/errevedigital",
+                element: <ErreveDigital />
             },
             {
                 path: "/vempazul",
