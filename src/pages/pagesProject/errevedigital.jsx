@@ -1,6 +1,6 @@
 import React from 'react'
 import ErreveDigitalImg from "../../assets/images/projects/errevedigital/5.png"
-import imgProject1 from "../../assets/images/projects/errevedigital/1.png"
+import imgProject1 from "../../assets/images/projects/errevedigital/9.png"
 import imgProject2 from "../../assets/images/projects/errevedigital/2.png"
 import imgProject3 from "../../assets/images/projects/errevedigital/3.png"
 import imgProject4 from "../../assets/images/projects/errevedigital/4.png"

@@ -13,6 +13,7 @@ import NitroPecas from "../pages/pagesProject/nitroPecas";
 import DespachanteJoia from "../pages/pagesProject/despachantejoia";
 import OnePiece from "../pages/pagesProject/onepiece";
 import ErreveDigital from "../pages/pagesProject/errevedigital";
+import AuraImoveis from "../pages/pagesProject/auraimoveis";
 
 
 export const router = createBrowserRouter([
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
             {
                 path: "/onepiece",
                 element: <OnePiece />
+            },
+            {
+                path: "/auraimoveis",
+                element: <AuraImoveis />
             }
         ]
     }

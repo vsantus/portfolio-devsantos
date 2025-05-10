@@ -12,7 +12,7 @@ const getRandomAnimation = () => {
 };
 
 const Portfolio = ({ className }) => {
-    const [category, setCategory] = useState('All');
+    const [category, setCategory] = useState('Todos');
     const [animationClass, setAnimationClass] = useState('');
 
     const handleCategoryClick = (item) => {
@@ -22,7 +22,7 @@ const Portfolio = ({ className }) => {
     }
 
     // ------ filter unique category
-    const filteredCategory = ["All"]
+    const filteredCategory = ["Todos"]
     projectsData.forEach(({ category }) => {
         if (!filteredCategory.includes(category)) {
             filteredCategory.push(category)
@@ -30,7 +30,7 @@ const Portfolio = ({ className }) => {
     })
     // ------ filter unique category
 
-    const filteredProjects = category === 'All' ? projectsData : projectsData.filter(image => image.category === category);
+    const filteredProjects = category === 'Todos' ? projectsData : projectsData.filter(image => image.category === category);
 
 
     return (

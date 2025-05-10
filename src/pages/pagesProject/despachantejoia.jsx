@@ -1,5 +1,5 @@
 import React from 'react'
-import DespachanteJoiaImg from "../../assets/images/projects/despachantejoia/5.png"
+import DespachanteJoiaImg from "../../assets/images/projects/despachantejoia/6.png"
 import imgProject1 from "../../assets/images/projects/despachantejoia/1.png"
 import imgProject2 from "../../assets/images/projects/despachantejoia/2.png"
 import imgProject3 from "../../assets/images/projects/despachantejoia/3.png"
