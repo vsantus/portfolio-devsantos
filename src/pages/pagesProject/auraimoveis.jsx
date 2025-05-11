@@ -1,9 +1,9 @@
 import React from 'react'
-import AuraImoveisImg from "../../assets/images/projects/auraimoveis/1.jpg"
-import imgProject1 from "../../assets/images/projects/auraimoveis/webdesign.jpg"
-import imgProject2 from "../../assets/images/projects/auraimoveis/2.jpg"
-import imgProject3 from "../../assets/images/projects/auraimoveis/3.jpg"
-import imgProject4 from "../../assets/images/projects/auraimoveis/4.jpg"
+import AuraImoveisImg from "../../assets/images/projects/auraimoveis/1.png"
+import imgProject1 from "../../assets/images/projects/auraimoveis/webdesign.png"
+import imgProject2 from "../../assets/images/projects/auraimoveis/2.png"
+import imgProject3 from "../../assets/images/projects/auraimoveis/3.png"
+import imgProject4 from "../../assets/images/projects/auraimoveis/4.png"
 
 const AuraImoveis = () => {
     return (
@@ -11,8 +11,8 @@ const AuraImoveis = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center pb-30">
-                        <p> Aura Ímoveis </p>
-                        <h1>Landing page para ímobiliaria </h1>
+                        <p> Aura Imóveis </p>
+                        <h1>Landing page para divulgação de imobiliária </h1>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@ const AuraImoveis = () => {
                             </div>
                             <div className="single-info">
                                 <p>Cliente</p>
-                                <h3>Aura ímoveis</h3>
+                                <h3>Aura Imóveis</h3>
                             </div>
                             <div className="single-info">
                                 <p>Serviços</p>

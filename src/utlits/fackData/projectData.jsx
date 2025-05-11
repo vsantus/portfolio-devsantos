@@ -5,7 +5,7 @@ import gerenciadortarefa from "../../assets/images/projects/gerenciador/gerencia
 import despachante from "../../assets/images/projects/despachantejoia/5.png"
 import onepiece from "../../assets/images/projects/onepiece/image.png"
 import erreve from "../../assets/images/projects/errevedigital/1.png"
-import auraimoveis from "../../assets/images/projects/auraimoveis/1.jpg"
+import auraimoveis from "../../assets/images/projects/auraimoveis/5.png"
 
 
 
