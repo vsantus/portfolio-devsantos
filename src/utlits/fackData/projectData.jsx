@@ -26,7 +26,6 @@ export const projectsData = [
         link: '/nitroPecas'
     },
 
-    
     {
         id: 1,
         src: vempazul,
