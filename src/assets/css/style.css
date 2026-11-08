@@ -687,8 +687,6 @@ html {
     margin-right: 5px;
 }
 
-.slider-arrows button:last-child {}
-
 /*** swiper Dots ***/
 .swiper-pagination{
     display: flex;
@@ -1250,8 +1248,6 @@ html {
     background-color: #121214;
 }
 
-.about-content-part {}
-
 .about-image-part {
     text-align: center;
     padding: 40px;
@@ -1298,8 +1294,6 @@ html {
     padding: 0 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
-.adress-field ul li {}
 
 .adress-field ul li i {
     color: #00FF00;
@@ -1542,8 +1536,6 @@ html {
     background: var(--black-color);
 }
 
-.extra-skills {}
-
 .extra-skills ul {
     margin-top: 30px;
 }
@@ -1693,8 +1685,6 @@ ul.extra-skills li i {
 .project-image img {
     width: 100%;
 }
-
-.project-content {}
 
 .project-content .sub-title {
     margin-bottom: 0;
@@ -2380,8 +2370,6 @@ ul.extra-skills li i {
     margin-bottom: 20px;
     font-weight: 400;
 }
-.footer-bottom {}
-
 .footer-bottom .copyright-text {
     color: var(--main-color);
     font-size: 14px;
@@ -2897,8 +2885,6 @@ ul.blog_pagination li a:hover {
     font-weight: 700;
 }
 
-.single-comment p {}
-
 .single-comment a {
     color: #fff;
     -webkit-transition: all 0.3s ease 0s;
@@ -3045,8 +3031,6 @@ ul.blog_pagination li a:hover {
     background: #000;
     padding: 50px 30px;
 }
-
-.single-side-bar {}
 
 .single-side-bar {
     -webkit-transition: 0.5s;
