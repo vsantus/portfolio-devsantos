@@ -1,4 +1,3 @@
-import React from 'react'
 import AuraImoveisImg from "../../assets/images/projects/auraimoveis/1.png"
 import imgProject1 from "../../assets/images/projects/auraimoveis/webdesign.png"
 import imgProject2 from "../../assets/images/projects/auraimoveis/2.png"
@@ -26,10 +25,6 @@ const AuraImoveis = () => {
                             <div className="single-info">
                                 <p>Ano</p>
                                 <h3>2025</h3>
-                            </div>
-                            <div className="single-info">
-                                <p>Cliente</p>
-                                <h3>Aura Imóveis</h3>
                             </div>
                             <div className="single-info">
                                 <p>Serviços</p>

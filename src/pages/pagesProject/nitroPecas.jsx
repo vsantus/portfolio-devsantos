@@ -1,4 +1,3 @@
-import React from 'react'
 import nitroPecasImg from "../../assets/images/projects/nitropecas/nitropecas.png"
 import imgProject1 from "../../assets/images/projects/nitropecas/1.png"
 import imgProject2 from "../../assets/images/projects/nitropecas/2.png"
@@ -30,10 +29,6 @@ const NitroPecas = () => {
                             <div className="single-info">
                                 <p>Ano</p>
                                 <h3>2025</h3>
-                            </div>
-                            <div className="single-info">
-                                <p>Cliente</p>
-                                <h3>Nitro Peças</h3>
                             </div>
                             <div className="single-info">
                                 <p>Serviços</p>
