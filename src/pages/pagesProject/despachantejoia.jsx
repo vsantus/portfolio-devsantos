@@ -1,4 +1,3 @@
-import React from 'react'
 import DespachanteJoiaImg from "../../assets/images/projects/despachantejoia/6.png"
 import imgProject1 from "../../assets/images/projects/despachantejoia/1.png"
 import imgProject2 from "../../assets/images/projects/despachantejoia/2.png"
@@ -17,12 +16,6 @@ const DespachanteJoia = () => {
                 </div>
             </div>
 
-            {/* Imagem principal do projeto */}
-            <div className="single-project-image">
-                {/* <img src={DespachanteJoiaImg} alt="imagem do projeto" /> */}
-            </div>
-
-            {/* Conteúdo do projeto */}
             <div className="container pt-30">
                 <div className="row">
                     <div className="col-lg-4">
@@ -30,10 +23,6 @@ const DespachanteJoia = () => {
                             <div className="single-info">
                                 <p>Ano</p>
                                 <h3>2025</h3>
-                            </div>
-                            <div className="single-info">
-                                <p>Cliente</p>
-                                <h3>Despachante Joia</h3>
                             </div>
                             <div className="single-info">
                                 <p>Serviços</p>
@@ -57,7 +46,6 @@ const DespachanteJoia = () => {
                     </div>
                 </div>
 
-                {/* Galeria de imagens */}
                 <div className="row pt-30">
                     <div className="col-lg-6">
                         <div className="single-image wow fadeInUp delay-0-2s">

@@ -1,30 +1,23 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-import { MdOutlineChat } from "react-icons/md";
-import { RiWhatsappFill } from '@remixicon/react';
-import SlideUp from '../../utlits/animations/slideUp'
+import { RiMailLine, RiWhatsappFill } from '@remixicon/react'
 
 const CallToAction = () => {
     return (
         <section className="call-to-action-area">
             <div className="container">
                 <div className="row">
-                    {/* <!-- START ABOUT TEXT DESIGN AREA --> */}
                     <div className="col-lg-12">
-                        <SlideUp>
-                            <div className="about-content-part call-to-action-part text-center">
-                                <h2> Pronto para dar o pontapé inicial no seu projeto com um toque profissional?</h2>
-                                <p>Me chama e vamos colocar seu projeto no ar! 🚀 <br></br> Também estou disponível para vagas full-time ou part-time como desenvolvedor Front-End, sempre focado em performance, design e experiência do usuário.</p>
-                                <div className="hero-btns">
-                                    <Link to="/contact" className="theme-btn">Email <i><MdOutlineChat size={16} /></i></Link>
-                                    <Link to="https://wa.me/11934916872" target="_blank" className="theme-btn">
-                                        WhatsApp <i><RiWhatsappFill size={16} /></i>
-                                    </Link>
-                                </div>
+                        <div className="about-content-part call-to-action-part text-center">
+                            <h2>Vamos transformar sua ideia em um produto digital completo?</h2>
+                            <p>Posso contribuir desde a interface até a API e integrações. Estou disponível para projetos e oportunidades como Desenvolvedor Full Stack, com foco em qualidade, performance e experiência do usuário.</p>
+                            <div className="hero-btns">
+                                <Link to="/contact" className="theme-btn">Email <i><RiMailLine size={16} /></i></Link>
+                                <a href="https://wa.me/11934916872" target="_blank" rel="noopener noreferrer" className="theme-btn">
+                                    WhatsApp <i><RiWhatsappFill size={16} /></i>
+                                </a>
                             </div>
-                        </SlideUp>
+                        </div>
                     </div>
-                    {/* <!-- / END ABOUT TEXT DESIGN AREA --> */}
                 </div>
             </div>
         </section>

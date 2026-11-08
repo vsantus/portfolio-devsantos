@@ -1,12 +1,6 @@
-import React from 'react'
 import ErreveDigitalImg from "../../assets/images/projects/errevedigital/5.png"
 import imgProject1 from "../../assets/images/projects/errevedigital/9.png"
 import imgProject2 from "../../assets/images/projects/errevedigital/2.png"
-import imgProject3 from "../../assets/images/projects/errevedigital/3.png"
-import imgProject4 from "../../assets/images/projects/errevedigital/4.png"
-import imgProject5 from "../../assets/images/projects/errevedigital/5.png"
-import imgProject6 from "../../assets/images/projects/errevedigital/6.png"
-import imgProject7 from "../../assets/images/projects/errevedigital/7.png"
 import imgProject8 from "../../assets/images/projects/errevedigital/8.png"
 
 const ErreveDigital = () => {
@@ -21,12 +15,6 @@ const ErreveDigital = () => {
                 </div>
             </div>
 
-            {/* Imagem principal do projeto */}
-            <div className="single-project-image">
-                {/* <img src={ErreveDigitalImg} alt="imagem do projeto" /> */}
-            </div>
-
-            {/* Conteúdo do projeto */}
             <div className="container pt-30">
                 <div className="row">
                     <div className="col-lg-4">
@@ -34,10 +22,6 @@ const ErreveDigital = () => {
                             <div className="single-info">
                                 <p>Ano</p>
                                 <h3>2025</h3>
-                            </div>
-                            <div className="single-info">
-                                <p>Cliente</p>
-                                <h3>Erreve Digital</h3>
                             </div>
                             <div className="single-info">
                                 <p>Serviços</p>
@@ -61,7 +45,6 @@ const ErreveDigital = () => {
                     </div>
                 </div>
 
-                {/* Galeria de imagens */}
                 <div className="row pt-30">
                     <div className="col-lg-6">
                         <div className="single-image wow fadeInUp delay-0-2s">
@@ -78,31 +61,6 @@ const ErreveDigital = () => {
                             <img src={imgProject2} alt="galeria 2" />
                         </div>
                     </div>
-                    {/* <div className="col-lg-6">
-                        <div className="single-image wow fadeInUp delay-0-6s">
-                            <img src={imgProject3} alt="galeria 3" />
-                        </div>
-                    </div> */}
-                    {/* <div className="col-lg-6">
-                        <div className="single-image wow fadeInUp delay-0-8s">
-                            <img src={imgProject4} alt="galeria 4" />
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <div className="single-image wow fadeInUp delay-0-4s">
-                            <img src={imgProject5} alt="galeria 2" />
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <div className="single-image wow fadeInUp delay-0-4s">
-                            <img src={imgProject6} alt="galeria 2" />
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <div className="single-image wow fadeInUp delay-0-6s">
-                            <img src={imgProject7} alt="galeria 3" />
-                        </div>
-                    </div> */}
                     <div className="col-lg-6">
                         <div className="single-image wow fadeInUp delay-0-8s">
                             <img src={imgProject8} alt="galeria 4" />

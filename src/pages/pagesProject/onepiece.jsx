@@ -1,4 +1,3 @@
-import React from 'react'
 import OnePieceImg from "../../assets/images/projects/onepiece/image.png"
 import imgProject1 from "../../assets/images/projects/onepiece/1.png"
 import imgProject2 from "../../assets/images/projects/onepiece/2.png"
@@ -27,10 +26,6 @@ const OnePiece = () => {
                             <div className="single-info">
                                 <p>Ano</p>
                                 <h3>2023</h3>
-                            </div>
-                            <div className="single-info">
-                                <p>Cliente</p>
-                                <h3>Anime Blog</h3>
                             </div>
                             <div className="single-info">
                                 <p>Serviços</p>
