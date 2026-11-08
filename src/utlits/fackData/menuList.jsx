@@ -1,28 +1,23 @@
 export const menuList = [
     {
         id: 1,
-        path: "/",
-        label: "Home"
+        path: "/#solutions",
+        label: "Soluções"
     },
-    // {
-    //     id: 2,
-    //     path: "/about",
-    //     label: "Sobre"
-    // },
-    // {
-    //     id: 3,
-    //     path: "/service",
-    //     label: "Serviço"
-    // },
+    {
+        id: 2,
+        path: "/#projects",
+        label: "Projetos"
+    },
+    {
+        id: 3,
+        path: "/#process",
+        label: "Processo"
+    },
     {
         id: 4,
-        path: "/works",
-        label: "Trabalhos"
-    },
-    {
-        id: 5,
-        path: "/contact",
-        label: "Contato"
+        path: "/#contact",
+        label: "Orçamento"
     },
 
 ]

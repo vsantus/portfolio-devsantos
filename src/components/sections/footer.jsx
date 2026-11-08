@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -11,15 +10,14 @@ const Footer = () => {
                         <div className="col-lg-6">
                             <div className="copyright-text">
                                 <p>
-                                    Copyright @{year}, <Link to="/">devsantos</Link> All
-                                    Rights Reserved.
+                                    © {year} <Link to="/">devsantos</Link>. Todos os direitos reservados.
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="copyright-text extra-copyright">
                                 <p>
-                                    Erreve Digital 
+                                    Desenvolvido por Vinicius Santos
                                 </p>
                             </div>
                         </div>
